@@ -1,0 +1,13 @@
+% ==========================================
+% Instruction Memory Initialization File
+% Target Architecture: RISC-V 32-bit
+% ==========================================
+
+WIDTH = 32;
+DEPTH = 4096;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+
+CONTENT BEGIN
+[0..FFF]: 0000006F; -- Infinite loop trap (jal x0, 0)
+END;

@@ -1,0 +1,30 @@
+# Game data (commercial; supply your own)
+*.WAD
+*.wad
+*.zip
+
+# Quartus / Platform Designer generated output
+db/
+incremental_db/
+output_files/
+simulation/
+.qsys_edit/
+*.qws
+*.sopcinfo
+**/hardware/doom_system/
+greybox_tmp/
+
+# Nios V BSP and application builds (regenerate from settings.bsp)
+**/software/bsp/*
+!**/software/bsp/settings.bsp
+build/
+*.elf
+*.map
+*.objdump
+
+# IDE
+riscfree-workspace/
+.metadata/
+.settings/
+.cproject
+.project
