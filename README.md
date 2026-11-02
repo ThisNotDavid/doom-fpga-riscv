@@ -2,6 +2,10 @@
 
 DOOM running on an **Intel Nios V/g RISC-V soft processor** on a **Terasic DE2-115** board (Cyclone IV E EP4CE115), with VGA video, a PS/2 keyboard and sound effects through the on-board audio codec.
 
+![DOOM running on the DE2-115 board](docs/doom-demo.gif)
+
+*Running on the DE2-115 during the internship (Sep 2026).*
+
 I built the system **twice**:
 
 1. **[`v1-custom-rtl/`](v1-custom-rtl)**: the peripherals are my own Verilog (about 1,100 lines): an SDRAM controller, a VGA framebuffer with hardware palette, and a PS/2 receiver.
